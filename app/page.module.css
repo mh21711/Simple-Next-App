@@ -1,0 +1,52 @@
+
+.container {
+  margin: 50px auto;
+  border: 2px solid #eee;
+  padding: 25px;
+  text-align: center;
+  width: fit-content;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 200px;
+  height: 25px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.button {
+  width: 50px;
+  height: 25px;
+}
+
+.ul {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.ul li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-bottom: 10px;
+  overflow-wrap: break-word;
+  cursor: pointer;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+}
+
+.done {
+  text-decoration: line-through;
+}
